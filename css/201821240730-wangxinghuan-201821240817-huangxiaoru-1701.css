@@ -1,0 +1,77 @@
+@charset "utf-8";
+			   
+				/*此以上，为导航*/
+			    .container{height:100%;
+			               margin:0;
+			               font-size:18px;
+			               font-family: 华文楷体;
+			               line-height: normal;
+			               color:#5B5B5B}
+			    /*针对视差滚动页样式*/
+			    .pimg1,.pimg2,.pimg3,.pimg4,.pimg5{position: relative;/*总设置-相对定位*/
+			                                opacity: 0.9;/*透明度*/
+			                                background-position: center;/*正中*/
+			                                background-size:cover;/*全覆盖*/
+			                                background-repeat: no-repeat;/*背景不重复*/
+			                                background-attachment: fixed;/*实现视差滚动特效的重点！！！这里的fixed为固定*/
+			                                z-index:-1 }/*让我所有的视差轮动的页面置于导航的后面*/
+			    /*插入的图组样式*/
+			    .pimg1{background-image:url(../img/6.jpg);
+					   min-height:600px/*层的最小高度*/
+					    }
+			    .pimg2{background-image:url(../img/7.jpg);
+			           min-height:300px
+			            }
+			    .pimg3{background-image:url(../img/10.jpg);
+			           min-height:300px}
+			    .pimg4{background-image: url(../img/8.jpg);
+			           min-height: 300px}
+			     .pimg5{background-image: url(../img/11.jpg);
+			           min-height: 1000px}
+			     /*解说框样式*/
+			     section{text-align: center;
+			            padding:30px 100px;}
+			    /*浅色解说框样式*/
+			    .sectionWhite{background:#F4F4F4;
+			                  color:#2b1216;
+			                    }
+			    /*深色解说框样式*/
+			    .sectionBlack{background: #5cb3cc;
+			                  color:#DDDDDD;
+			                 }
+			    /*图片中文字样式设置*/
+			    .ptext{position: absolute;/*定位*/
+			           top:50%;
+			           width: 100%;
+			           text-align: center;
+			           font-family:华文新魏;
+			           color:#FFFFFF;
+			           font-size:32px;
+			           word-spacing: normal}
+  				.wordBlack{color:#5b5b5b}
+                
+
+
+
+  /*浅色解说框样式*/
+			    #sectionWhite1,#sectionWhite2,#sectionWhite3{background:#F4F4F4;
+			                  color:#2b1216;
+			                    }
+			    /*深色解说框样式*/
+			    #sectionBlack1,#sectionBlack2,#sectionBlack3,#sectionBlack4{background: #5cb3cc;
+					         color:#DDDDDD;}
+
+				/*新加的inset4*/
+				
+				/*h1 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+}*//*没用了*/
+
+			    

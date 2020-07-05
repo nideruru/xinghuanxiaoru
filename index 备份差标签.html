@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="zh">
+    <head>
+		<meta charset="utf-8">
+		<!--本网页为王星欢编码-->
+		<title>PLOG</title> 
+    	<link href="css/201821240730-wangxinghuan-201821240817-huangxiaoru-1701.css" rel="stylesheet" type="text/css">
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" rel="Stylesheet" href="css/imageflow.css" />
+		
+		<link type="text/css" href="css/index.css" rel="stylesheet"><!--导航-->
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/imageflow.js"></script>
+		<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+		
+		
+		<!--导航-->
+		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+    function anim(duration){
+        $('#mint').animate(
+            {height: 'toggle'},
+            {duration: duration}
+        );
+    }
+    $('#closebtn').click(function() {
+        $('#mintbar').slideUp();
+        anim(600);
+    });
+   
+    $('#mint').click(function() {
+        anim(600);
+        $('#mintbar').slideDown('slow');
+    });
+	
+});
+        </script>
+
+		
+    </head>
+
+    <body>
+		  <audio controls autoplay loop>
+          <source src="music/FINNEAS - Let's Fall in Love for the Night.mp3" type="audio/ogg">
+           您的浏览器不支持播放此音频
+      	  </audio>
+		
+		<!--导航的标志-->
+		<div id="mintbar" style="position: fixed"  ><a id="closebtn" href="#"><img src="img/35.png" alt="导航标志" /></a></div>
+
+		<div id="mint" style="display:none;position:fixed;top:0;right:0px;">
+
+					<div class="box-nav">
+						<li><a href="#sectionBlack1">首页</a></li>
+						<li><a href="#sectionWhite1">Plog简介</a></li>
+						<li><a href="#sectionBlack2">使用概况</a></li>
+						<li><a href="#sectionWhite2">风格偏好</a></li>
+						<li><a href="#sectionBlack3">人群画像</a></li>
+						<li><a href="#sectionWhite3">年度榜单</a></li>
+						<li><a href="#sectionBlack4">数据来源</a></li>
+					</div>
+				</div>
+        <!--导航结束-->
+		
+		
+		  
+		  <main class="container">
+			  	 <section id="sectionBlack1"><!--深色框-->
+			         <h3>PLOG</h3>
+			         <p>Do u know what is plog?
+                     </p>
+					 <div>
+						  <img src="img/12.png" alt="Plpg解说图" title="Plpg解说图">
+					 </div>
+
+		        </section>
+		         <div class="pimg1"><!--第一个插图-->
+		             <div class="ptext"><!--图片中带抒情暖心文本——类似plog的图片带文本的形式-->
+				          <span class="boder">
+					       “不快乐时候，就去外面走走，<br>
+						   如果感受到风在吹的话，<br>
+						   那是地球拍了拍你的头”
+				          </span>   
+			         </div>
+		         </div>
+		         <section id="sectionWhite1"><!--白框-->
+			         <h3 class="wordBlack">PLOG简介</h3>
+					 <p>Plog=PhotoBlog，简单来说就是图片博客.<br>
+						 用图片来记录生活，讲述生活。<br>
+						 Plog在2019年底开始出现在网络平台，今年更是成为了各大明星和网络红人的新宠。<br>
+						 “快乐摄影，随心记录”是Plog最大的特点。<br>
+						 用图片+文字+可爱的贴纸来记录生活，瞬间让单调的照片变得更有故事感，让那些照片变得会说话，让生活细节都变得清晰。
+                    </p>
+
+		        </section>
+		        <div class="pimg2"><!--第二个插图-->
+		             <div class="ptext">
+				         <span class="boder">
+					     “希望你在丧失表达欲的时候，能有人温柔地接住你的疲惫”
+				         </span>   
+			         </div>
+		        </div>
+		        <section id="sectionBlack2"><!--深色框-->
+			         <h3>从美图概况来看Plog</h3>
+			         <p>从中国当今的市场来看，美图作为p图界大佬，几乎是人手一app，从美图的数据，就可以揭示我们现在巨大的Plog人群。
+                     </p>
+					 <div>
+						 <img src="img/13.png" alt="累计用户" title="累计用户">
+						 <img src="img/14.png" alt="保存内容" title="保存内容">
+					</div>
+					
+		        </section>
+		        <div class="pimg3"><!--第三个插图-->
+		             <div class="ptext">
+				          <span class="boder">
+					      “且听风吟，静待花开”
+				          </span>   
+			         </div>
+		        </div>
+	            <section id="sectionWhite2">
+			          <h3 class="wordBlack">Plog风格偏好</h3>
+			          <p>在拍照风格上，男女都最爱日杂风<br>
+						 女性更喜欢萌趣和港风，男性则偏爱文艺与潮流
+                      </p>
+					   <!--插入风格偏好-->
+					  <div class="inset">
+						  <div id="hero-slides">
+
+						  <div id="header">
+							<div id="logo"></div>
+							<div id="menu">
+							  <div id="hamburger">
+								<div class="slice"></div>
+								<div class="slice"></div>
+								<div class="slice"></div>
+							  </div>
+							</div>
+						  </div>
+  
+						  <div id="slides-cont">
+							<div class="button" id="next"></div>
+							<div class="button" id="prev"></div>
+							<div id="slides">
+							  <div class="slide" style="background-image: url(img/1.jpg);">
+								<div class="number">01</div>
+								<div class="body">
+								  <div class="location">Shibuya, Japan</div>
+								  <div class="headline">TOP1</div><a href="#">
+									<div class="link">日杂</div></a>
+								</div>
+							  </div>
+							  <div class="slide" style="background-image: url(img/2.jpg);">
+								<div class="number">02</div>
+								<div class="body">
+								  <div class="location">Mong Kok, Hong Kong China</div>
+								  <div class="headline">TOP2</div><a href="#">
+									<div class="link">港风</div></a>
+								</div>
+							  </div>
+							  <div class="slide" style="background-image: url(img/3.jpg);">
+								<div class="number">03</div>
+								<div class="body">
+								  <div class="location">Incheon, South Korea</div>
+								  <div class="headline">TOP3</div><a href="#">
+									<div class="link">萌趣</div></a>
+								</div>
+							  </div>
+							  <div class="slide" style="background-image: url(img/4.jpg);">
+								<div class="number">04</div>
+								<div class="body">
+								  <div class="location">Wan Chai, China</div>
+								  <div class="headline">TOP4</div><a href="#">
+									<div class="link">文艺</div></a>
+								</div>
+							  </div>
+							  <div class="slide" style="background-image: url(img/5.jpg);">
+								<div class="number">05</div>
+								<div class="body">
+								  <div class="location">Lishu, China</div>
+								  <div class="headline">TOP5</div><a href="#">
+									<div class="link">潮酷</div></a>
+								</div>
+							  </div>
+
+							<div id="next-catch"></div>
+							<div id="prev-catch"></div>
+						  </div>
+
+						</div>
+                          </div>
+
+						  <script>
+							let hero = document.getElementById('hero-slides');
+							let menu = document.getElementById('menu');
+							let slides = document.getElementById('slides');
+							let next = [ 'next', 'next-catch' ].map(n => document.getElementById(n));
+							let prev = [ 'prev', 'prev-catch' ].map(n => document.getElementById(n));
+							let slideChildren = slides.children;
+							let slideCount = slides.children.length;
+							let currentlyDemoing = false;
+							let currentPage = 0;
+							let slidesPerPage = () => window.innerWidth > 1700 ? 4 : window.innerWidth > 1200 ? 3 : 2;
+							let maxPageCount = () => slideCount / slidesPerPage() - 1;
+
+							function goToPage(pageNumber = 0) {
+								currentPage = Math.min(maxPageCount(), Math.max(0, pageNumber));
+								console.log(currentPage);
+								hero.style.setProperty('--page', currentPage);
+							}
+
+							function sleep(time) {
+								return new Promise(res => setTimeout(res, time));
+							}
+
+							function hoverSlide(index) {
+								index in slideChildren &&
+									slideChildren[index].classList.add('hover');
+							}
+
+							function unhoverSlide(index) {
+								index in slideChildren &&
+									slideChildren[index].classList.remove('hover');
+							}
+
+							async function demo() {
+								if(currentlyDemoing) {
+									return;
+								}
+								currentlyDemoing = true;
+								if(currentPage !== 0) {
+									goToPage(0);
+									await sleep(800);
+								}
+								let slides = slidesPerPage();
+								let pageSeq_ = { 2: [ 1, 2, 1 ], 3: [ 1, 2, 1 / 3 ], 4: [ 1, 1, 0 ] };
+								let pageSeq = pageSeq_[slides] || pageSeq_[4];
+								let slideSeq_ = { 2: [ 2, 4, 3 ], 3: [ 3, 6, 2 ], 4: [ 3, 6, 2 ] };
+								let slideSeq = slideSeq_[slides] || slideSeq_[2];
+								await sleep(300);
+								goToPage(pageSeq[0]);
+								await sleep(500);
+								hoverSlide(slideSeq[0]);
+								await sleep(1200);
+								goToPage(pageSeq[1]);
+								unhoverSlide(slideSeq[0]);
+								await sleep(500);
+								hoverSlide(slideSeq[1]);
+								await sleep(1200);
+								goToPage(pageSeq[2]);
+								unhoverSlide(slideSeq[1]);
+								await sleep(300);
+								hoverSlide(slideSeq[2]);
+								await sleep(1600);
+								goToPage(0);
+								unhoverSlide(slideSeq[2]);
+								currentlyDemoing = false;
+							}
+
+							next.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage + 1)));
+							prev.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage - 1)));
+							menu.addEventListener('click', demo);
+
+							sleep(100).then(demo);
+
+							// window.addEventListener('resize', () => {
+								// console.log(document.body.style.getPropertyValue('--slide-per-page'));
+							// });
+							</script>
+
+					 </div>
+					
+		        </section>
+			    
+		        <div class="pimg4"><!--第四个插图-->
+		             <div class="ptext">
+				          <span class="boder">
+					       “走慢点没关系，把风景都记在心里”
+				          </span>   
+			         </div>
+		        </div>
+			    <section id="sectionBlack3"><!--深色框-->
+			         <h3>Plog 人群画像</h3>
+			         <p>这里就是朋友圈的潜规则了
+                     </p>
+					 <div>
+						 <img src="img/31.png" alt="活跃节点" title="活跃节点">
+						 <img src="img/32.png" alt="拍照对象" title="拍照对象">
+						 <img src="img/33.png" alt="拍照场景" titl="拍照场景">
+						 <img src="img/34.png" alt="拍照内容组成" title="拍照内容组成">
+ 					</div>
+					
+					<!--插入滑动标签-->
+					
+					<div id="div1">
+						<a href="#" >Vlog</a>
+						<a href="#" >照片</a>
+						<a href="#" >美拍</a>
+						<a href="#" >可爱</a>
+						<a href="#" >萌趣</a>
+						<a href="#" >和闺蜜一起</a>
+						<a href="#" >旅行拍照</a>
+						<a href="#" >精美修图</a>
+						<a href="#" >修饰图片第一名</a>
+						<a href="#" >港风</a>
+						<a href="#" >日杂日系</a>
+						<a href="#" >韩风可爱系</a>
+						<a href="#" >贴纸贴图</a>
+						<a href="#" >可爱的小玩意</a>
+						<a href="#" >认真生活</a>
+						<a href="#" >拍照是一种态度</a>
+						<a href="#" >我热爱我所拥有的一切</a>
+						<a href="#" >喜欢的事情最有动力</a>
+						<a href="#" >好好学习</a>
+						<a href="#" >期待一定会有回报</a>
+						<a href="#" >暑假快乐</a>
+						<a href="#" >七月你好</a>
+						<a href="#" >加油</a>
+						<a href="#" >你可以的</a>
+						<a href="#" >你是最棒的</a>
+						<a href="#" >美食拍照</a>
+						<a href="#" >滤镜美颜</a>
+						<a href="#" >萌拍AR</a>
+						<a href="#" >喜欢的事情</a>
+						<a href="#" >存在</a>
+						<a href="#" >coco</a>
+						<a href="#" >鸡腿汉堡奶茶</a>
+						<a href="#" >蝴蝶挂饰</a>
+						<a href="#" >照片精修</a>
+					</div>
+					
+					
+		        </section>
+			    <div class="pimg5"><!--第五个插图-->
+		             <div class="ptext">
+				          <span class="boder">
+					      “心怀浪漫宇宙，也珍惜人间日常”
+				          </span>   
+			         </div>
+		        </div>   
+			  	 <section id="sectionWhite3"><!--浅色框-->
+			         <h2>Plog年度榜单</h2>
+					 <!-- 整合二段-->
+					 <div class="=inset2">
+					 	<h3 class="wordBlack">贴纸榜单</h3>
+						 	<!--贴纸滚动内容开始-->
+						<style type="text/css">
+							*{margin:0;padding:0;list-style-type:none;}
+							a,img{border:0;}
+							body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+							/* marqueeleft */
+							.marqueeleft{height:136px;width:474px;overflow:hidden;margin:40px auto;}
+							.marqueeleft ul{float:left;}
+							.marqueeleft li{float:left;margin:0 5px;display:inline;width:148px;height:133px;overflow:hidden;}
+							.marqueeleft li .pic{display:block;border:#ccc 1px solid;width:135px;height:104px;padding:2px;overflow:hidden;}
+							.marqueeleft li .txt{text-align:center;height:23px;line-height:23px;}
+							/* marqueetop */
+							.marqueetop{height:429px;width:148px;overflow:hidden;margin:40px auto;}
+							.marqueetop li{padding:5px 0;width:148px;height:133px;overflow:hidden;}
+							.marqueetop li .pic{display:block;border:#ccc 1px solid;width:135px;height:104px;padding:2px;overflow:hidden;}
+							.marqueetop li .txt{text-align:center;height:23px;line-height:23px;}
+						</style>
+
+						<script type="text/javascript">
+								//js无缝滚动代码
+								function marquee(i, direction){
+									var obj = document.getElementById("marquee" + i);
+									var obj1 = document.getElementById("marquee" + i + "_1");
+									var obj2 = document.getElementById("marquee" + i + "_2");
+									if (direction == "up"){
+										if (obj2.offsetTop - obj.scrollTop <= 0){
+											obj.scrollTop -= (obj1.offsetHeight + 20);
+											}else{
+										var tmp = obj.scrollTop;
+											obj.scrollTop++;
+										if (obj.scrollTop == tmp){
+											obj.scrollTop = 1;}
+										}
+										}else{
+										if (obj2.offsetWidth - obj.scrollLeft <= 0){
+											obj.scrollLeft -= obj1.offsetWidth;
+										}else{
+										obj.scrollLeft++;}
+										}
+									}
+
+								function marqueeStart(i, direction){
+									var obj = document.getElementById("marquee" + i);
+									var obj1 = document.getElementById("marquee" + i + "_1");
+									var obj2 = document.getElementById("marquee" + i + "_2");
+
+									obj2.innerHTML = obj1.innerHTML;
+									var marqueeVar = window.setInterval("marquee("+ i +", '"+ direction +"')", 20);
+									obj.onmouseover = function(){
+									window.clearInterval(marqueeVar);}
+
+									obj.onmouseout = function(){
+									marqueeVar = window.setInterval("marquee("+ i +", '"+ direction +"')", 20);}
+									}
+							</script>
+						
+						<div id="marquee1" class="marqueeleft">
+		<div style="width:8000px;">
+		<ul id="marquee1_1">
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/15.jpg" alt="TOP1 BlingBling"></a>
+				<div class="txt">TOP1 BlingBling</div>
+			</li>
+			
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/16.jpg" alt="TOP2 动漫人物"></a>
+				<div class="txt">TOP2 动漫人物</div>
+			</li>
+			
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/17.jpg" alt="TOP3 闪亮霓虹"></a>
+				<div class="txt">TOP3 闪亮霓虹</div>
+			</li>
+			
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/18.jpg" alt="无法显示"></a>
+				<div class="txt">TOP4 芭比粉</div>
+			</li>
+			
+		</ul>
+		<ul id="marquee1_2"></ul>
+		</div>
+	</div><!--marqueeleft end-->
+						<script type="text/javascript">marqueeStart(1, "left");</script>
+
+						<p>此处只循环一次，再次刷新即可观看</p>
+						<div id="marquee2" class="marqueetop">
+	<div style="height:8000px;">
+		<ul id="marquee2_1">
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/19.jpg" alt="TOP5 旅行的印记"></a>
+				<div class="txt">TOP5 旅行的印记</div>
+			</li>
+			
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/20.jpg" alt="TOP6 治愈鸭鸭"></a>
+				<div class="txt">TOP6 治愈鸭鸭</div>
+			</li>
+			
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/21.jpg" alt="TOP7 表情包"></a>
+				<div class="txt">TOP7 表情包</div>
+			</li>
+			
+			<li>
+				<a class="pic" href=""><img width="135" height="104" src="img/22.jpg" alt="TOP8 装饰包"></a>
+				<div class="txt">TOP8 装饰包</div>
+			</li>
+			
+		</ul>
+		<ul id="marquee2_2"></ul>
+	</div>
+</div><!--marqueeleft end-->
+
+						<script type="text/javascript">marqueeStart(2, "up");</script>
+
+						<!--贴纸滚动内容结束-->
+			         </div>
+					 <div class="inset3">
+						 <h3 class="wordBlack">滤镜榜单</h3>
+						 	<div id="LoopDiv">
+		<input id="S_Num" type="hidden" value="8" />
+		<div id="starsIF" class="imageflow"> 
+			<img src="img/23.jpg" longdesc="TOP1" width="280" height="300" alt="Picture" /> 
+			<img src="img/24.jpg" longdesc="TOP2" width="280" height="300" alt="Picture" /> 
+			<img src="img/25.jpg" longdesc="TOP3" width="280" height="300" alt="Picture" /> 
+			<img src="img/26.jpg" longdesc="TOP4" width="280" height="300" alt="Picture" /> 
+			<img src="img/27.jpg" longdesc="TOP5" width="280" height="300" alt="Picture" /> 
+			<img src="img/28.jpg" longdesc="TOP6" width="280" height="300" alt="Picture" /> 
+			<img src="img/29.jpg" longdesc="TOP7" width="280" height="300" alt="Picture" /> 
+			<img src="img/30.jpg" longdesc="TOP8" width="280" height="300" alt="Picture" /> 
+			<img src="img/23.jpg" longdesc="TOP1" width="280" height="300" alt="Picture" /> 
+			<img src="img/24.jpg" longdesc="TOP2" width="280" height="300" alt="Picture" /> 
+			<img src="img/25.jpg" longdesc="TOP3" width="280" height="300" alt="Picture" /> 
+			<img src="img/26.jpg" longdesc="TOP4" width="280" height="300" alt="Picture" /> 
+			<img src="img/27.jpg" longdesc="TOP5" width="280" height="300" alt="Picture" /> 
+			<img src="img/28.jpg" longdesc="TOP6" width="280" height="300" alt="Picture" /> 
+		</div>
+	</div>
+							<div class="clear"></div>
+					 </div>
+					
+		        </section>
+			   <section id="sectionBlack4"><!--深色框-->
+			         <h2>数据来源</h2>
+			         <p>美图大数据后台
+                     </p>
+				     <h3>创作人员</h3>
+				   	 <p>西华师范大学网络与新媒体2018级三班<br>
+						 王星欢and黄晓茹
+				    </p>
+				</section>
+
+
+			  
+
+
+			    
+	     
+		  <a href="#topSite" target="_self">返回顶部</a>  
+	</main>
+    </body>
+</html>
